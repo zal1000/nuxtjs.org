@@ -149,7 +149,7 @@ Use this method to update `__NUXT__` variable rendered on client-side, the `fn` 
 
 ### beforeSerialize
 
-`beforeSerialize(fn)` (_Function_)
+`beforeSerialize(fn)` (_Function_), available from Nuxt `2.16+`
 
 Use this method to update `__NUXT__` variable rendered on client-side, the `fn` (must be synchronous) is called with `nuxtState` as argument. This method is called inside the `rendered` method of Vue SSR, allowing you to use it in components.
 
